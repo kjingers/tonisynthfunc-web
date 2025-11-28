@@ -1,6 +1,6 @@
 # Toni TTS - Text-to-Speech Web Application
 
-A modern Text-to-Speech web application powered by Azure Cognitive Services. This is the frontend UI for the [tonisynthfunc](https://github.com/kingersoll/ToniText2Speech) Azure Functions backend.
+A modern Text-to-Speech web application powered by Azure Cognitive Services. This is the frontend UI for the [tonisynthfunc](https://github.com/kjingers/tonisynthfunc) Azure Functions backend.
 
 ## 🎯 Overview
 
@@ -42,7 +42,7 @@ Toni TTS allows users to convert text to natural-sounding speech using Azure's n
 
 - **Frontend**: React 18 + TypeScript + Vite
 - **Styling**: Tailwind CSS
-- **Backend**: [Azure Functions (Python)](https://github.com/kingersoll/ToniText2Speech)
+- **Backend**: [Azure Functions (Python)](https://github.com/kjingers/tonisynthfunc)
 - **Authentication**: Azure AD / Microsoft Entra ID
 - **Hosting**: Azure Static Web Apps (Free tier)
 - **iOS**: React Native + Expo
@@ -78,7 +78,7 @@ tonisynthfunc-web/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/kingersoll/ToniText2Speech-web.git
+git clone https://github.com/kjingers/tonisynthfunc-web.git
 cd tonisynthfunc-web
 ```
 
@@ -169,7 +169,7 @@ To remove the published Expo app:
 
 ### Disable Backend (Main Cost Saver)
 
-The Azure Functions backend is where costs occur. See the [tonisynthfunc](https://github.com/kingersoll/ToniText2Speech) repo for instructions on stopping the function app.
+The Azure Functions backend is where costs occur. See the [tonisynthfunc](https://github.com/kjingers/tonisynthfunc) repo for instructions on stopping the function app.
 
 ## 🔐 Authentication
 
@@ -183,7 +183,7 @@ To disable authentication, remove the `routes` section from `staticwebapp.config
 
 ## 📄 Related Repositories
 
-- **Backend**: [kjingers/tonisynthfunc](https://github.com/kingersoll/ToniText2Speech) - Azure Functions for TTS processing
+- **Backend**: [kjingers/tonisynthfunc](https://github.com/kjingers/tonisynthfunc) - Azure Functions for TTS processing
 
 ## 📝 License
 
@@ -192,3 +192,4 @@ MIT
 ## 👤 Author
 
 Kurtis Ingersoll
+
