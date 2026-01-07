@@ -1,3 +1,22 @@
 #root {
   width: 100%;
 }
+
+/* Shake animation for errors */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+.animate-shake {
+  animation: shake 0.3s ease-in-out;
+}
+
+/* Focus states for accessibility */
+button:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #7c3aed;
+  outline-offset: 2px;
+}
